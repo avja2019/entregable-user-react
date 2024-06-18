@@ -1,0 +1,32 @@
+.usercard {
+    width: 250px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 5px;
+}
+.usercard__name {
+    padding: 5px;
+}
+.usercard__list {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.usercard__item {
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+}
+.usercard__item span:first-child {
+    color: #999;
+}
+.usercard__buttons{
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    gap:20px;
+}
+

@@ -1,0 +1,57 @@
+.userform {
+    background-color: #9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:transform .5s;
+}
+.userform.active {
+    transform: scale(1);
+    transition:transform .5s;
+}
+
+.userform__form {
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.userform__header {
+    display: flex;
+    justify-content: space-between;
+}
+.userform__close {
+    padding: 0 7px;
+    border-radius: 50%;
+}
+.userform__close:hover {
+    color: red;
+}
+.userform__item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.userform__btn {
+    background-color: #777BA0;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    transition: transform .5s;
+                filter: .5s;
+}
+.userform__btn:hover {
+    transform: scale(1.05);
+    filter: brightness(1.25);
+    transition: transform .5s;
+                filter: .5s;
+} 
